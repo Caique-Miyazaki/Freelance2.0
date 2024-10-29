@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #343a40; /* Cor de fundo da nav */
+  background-color: #2a292c; /* Cor de fundo da nav */
   color: #fff; /* Cor do texto */
   height: 35px;
 }
@@ -11,6 +11,10 @@
 #navBar .link {
   text-decoration: none;
   color: #fff;
+  transition: 0.3s;
+}
+#navBar .link:hover{
+  color: #4ac6ec;
 }
 
 .dropdown {

@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import "./navBar.css";
 
 const NavBar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+//   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
+//   const toggleDropdown = () => {
+//     setDropdownOpen(!dropdownOpen);
+//   };
 
   return (
     <nav id="navBar">
@@ -16,7 +16,13 @@ const NavBar = () => {
           Nome do Site
         </Link>
       </h2>
-      <div className="dropdown">
+
+      <p>
+        <Link to="/vagas" className="link">Serviços</Link>
+      </p>
+
+
+      {/* <div className="dropdown">
         <button
           className="btn btn-secondary dropdown-toggle"
           type="button"
@@ -52,7 +58,7 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
     </nav>
   );
 };
