@@ -1,13 +1,12 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navBar.css";
 
 const NavBar = () => {
-//   const [dropdownOpen, setDropdownOpen] = useState(false);
+  //   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-//   const toggleDropdown = () => {
-//     setDropdownOpen(!dropdownOpen);
-//   };
+  //   const toggleDropdown = () => {
+  //     setDropdownOpen(!dropdownOpen);
+  //   };
 
   return (
     <nav id="navBar">
@@ -18,9 +17,10 @@ const NavBar = () => {
       </h2>
 
       <p>
-        <Link to="/vagas" className="link">Serviços</Link>
+        <Link to="/vagas" className="link">
+          Serviços
+        </Link>
       </p>
-
 
       {/* <div className="dropdown">
         <button
